@@ -24,8 +24,10 @@ import { Component, OnInit } from '@angular/core';
   </ng-template>
   <app-output (enviarDados)="setDados($event)"></app-output> -->
 
-   <router-outlet></router-outlet>
- `
+  <app-food-add></app-food-add>
+  <app-food-list></app-food-list>
+  <router-outlet></router-outlet>
+ `,
 })
 export class AppComponent implements OnInit {
 

@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+
 
 //Components
 import { NewComponentComponent } from './new-component/new-component.component';
@@ -33,7 +35,8 @@ import { FoodAddComponent } from './food-add/food-add.component';
   ],
   imports: [
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ]
 })
 export class SharedModule { }
